@@ -24,8 +24,12 @@
                 counter-reset: contador;
             }
 
+            ol li{
+                counter-set: con;
+            }
+
             ol li::before{
-                content: "Opcion " counter(contador);
+                content: "Opcion " counter(contador) ") ";
             }
 
             dl {
