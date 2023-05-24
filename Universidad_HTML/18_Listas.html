@@ -24,8 +24,8 @@
                 counter-reset: contador;
             }
 
-            ol li{
-                
+            ol li::before{
+                content: "Opcion " counter(contador);
             }
 
             dl {
