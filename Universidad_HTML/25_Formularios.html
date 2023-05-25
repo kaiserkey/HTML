@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Formularios</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            h1{
-                text-align: center;
-                color: lightcoral;
-                font-size: 30px;
-            }
-            form{
-                width: 60%;
-                height: auto;
-                margin: 20px auto;
-                background: lightgoldenrodyellow;
-                border: 2px solid lightslategray;
-                text-align: center;
-                padding: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Formularios en HTML</h1>
-        <form method="get">
-            <fieldset>
+
+<head>
+    <title>Formularios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            text-align: center;
+            color: lightcoral;
+            font-size: 30px;
+        }
+
+        form {
+            width: 60%;
+            height: auto;
+            margin: 20px auto;
+            background: lightgoldenrodyellow;
+            border: 2px solid lightslategray;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formularios en HTML</h1>
+    <form method="get">
+        <fieldset>
             <label for="texto">Texto: </label>
             <input type="text" name="texto" id="texto" placeholder="Campo de texto" required="true">
             <br><br>
@@ -62,6 +65,8 @@
             <br>
             <input type="submit" value="Enviar">
             <input type="submit" formnovalidate="formnovalidate" value="Enviar Sin Validar">
-        </form>
-    </body>
+        </fieldset>
+    </form>
+</body>
+
 </html>
